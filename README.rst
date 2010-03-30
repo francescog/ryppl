@@ -83,8 +83,8 @@ Setting up prerequisites
 
      % python ez_setup.py
 
-   On windows, `easy_install`ed executables don't go in your `PATH` by
-   default, so you'll need to add something like `c:\Python26\Scripts`
+   On windows, ``easy_install``\ ed executables don't go in your ``PATH`` by
+   default, so you'll need to add something like ``c:\Python26\Scripts``
    to your path to make the rest of this work.
 
 4. **Use setuptools to get Sphinx**.  The servers were really slow
@@ -93,7 +93,7 @@ Setting up prerequisites
 
      % easy_install sphinx
 
-5. **make sure** `sphinx-build` is in your path:
+5. **make sure** ``sphinx-build`` is in your path:
 
      % sphinx-build --help
 
@@ -115,7 +115,7 @@ Setting up prerequisites
 
         This program built for i386-pc-mingw32
 
-   Then you've done something wrong.  The platform string should be `i386-pc-msys`.
+   Then you've done something wrong.  The platform string should be ``i386-pc-msys``.
 
 7. **Install** GraphViz_.  Use your native package manager or get it
    from the GraphViz `download page <http://graphviz.org/Download.php>`_
